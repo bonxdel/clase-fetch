@@ -13,7 +13,11 @@
         fetch("prueba.txt")
         .then(respuesta => {
             console.log(respuesta);
+            return respuesta.json();//JSON.parse
         })
+        .then(personas => {
+            console.log(personas);
+        });
 
     </script>
 </body>
