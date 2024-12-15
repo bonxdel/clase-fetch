@@ -1,1 +1,5 @@
-holahola
+[
+    {"nombre" : "Cris", "edad" : 28},
+    {"nombre" : "Juanma", "edad" : 30},
+    {"nombre" : "Rodri", "edad" :31},
+]
